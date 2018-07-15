@@ -1,6 +1,8 @@
-.gradle
+/.gradle/
 /build/
 /.idea/
-node_modules
-out/
+/out/
+/node_modules/
+src/main/resources/static/built/
 *.iml
+package-lock.json
