@@ -38,6 +38,7 @@ dependencies {
 }
 
 task webpack(type: NpmTask) {
+    dependsOn npmInstall
     args = ['run', 'webpack']
 }
 
